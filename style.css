@@ -827,3 +827,123 @@ footer .col-md-3 a {
 .copyright .container a {
   font-size: 2rem;
 }
+
+@media (max-width: 1400px) {
+  .cover-image {
+    right: -5%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .cover-image {
+    right: -2%;
+    max-width: 58rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cover-image {
+    top: 72%;
+    right: 0%;
+    max-width: 50rem;
+  }
+  .intro {
+    flex-wrap: wrap;
+  }
+  .gradient-heading,
+  .heading {
+    font-size: 6rem;
+  }
+  .intro-detail .btn-circle {
+    top: -70%;
+    right: -25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .intro {
+    flex-wrap: wrap-reverse;
+  }
+  .cover-image {
+    top: auto;
+    left: auto;
+    position: relative;
+    margin-top: 18rem;
+    max-width: 100%;
+  }
+  .cta {
+    top: 80%;
+  }
+  .intro-detail {
+    width: 100%;
+  }
+  .intro-detail .btn-circle {
+    top: -150%;
+    right: 30%;
+  }
+  .intro-footer {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .intro-detail .btn-circle {
+    display: none;
+  }
+  .intro-detail {
+    min-width: 100%;
+  }
+  .about span {
+    font-size: 1.4rem;
+  }
+  .services span {
+    font-size: 1.4rem;
+  }
+  .features span {
+    font-size: 1.4rem;
+  }
+  .feature-card {
+    height: 14rem;
+  }
+}
+
+@media (max-width: 575px) {
+  nav {
+    padding-inline: 2rem !important;
+  }
+  nav .logo img {
+    width: 10rem;
+  }
+
+  .heading,
+  .gradient-heading {
+    font-size: 5rem;
+  }
+  .cover-image {
+    display: none;
+  }
+  .cta {
+    display: none;
+  }
+  .btn {
+    font-size: 1.4rem;
+  }
+  .intro-footer {
+    flex-direction: column;
+  }
+  .show-mobile {
+    display: inline-block;
+  }
+  section,
+  footer .row,
+  .copyright .container {
+    padding-inline: 2rem !important;
+  }
+  .card-service {
+    padding: 0 2rem;
+    height: 18rem;
+  }
+}
