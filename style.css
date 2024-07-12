@@ -106,6 +106,10 @@ section.cover {
     background: #FEB143;
 }
 
+.btn-yellow:hover {
+    background: #fcd48d;
+}
+
 .intro {
   display: flex;
   align-items: center;
